@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('./weatherImg.jpg');
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-left: 340px;
+    background: none;
+}
+
+.searchbox {
+    width: 100%;
+    margin: 10px 0 75px;
+    background: none;
+}
+
+.searchbox .searchbar{
+    display: block;
+    width: 66%;
+    padding: 10px;
+    appearance: none;
+    background: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.5);
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0px 2px rgba(0,0,0,0.1);
+    transition: 0.4s ease;
+    color: rgba(255, 255, 255, 0.719);
+    border: 2px solid black;
+}
+.searchbar::placeholder{
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.searchbox .searchbar:focus{
+    background-color: rgba(255,255,255,0.2);
+}
+.app-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 150px;
+    left: 495px;
+    height: fit-content;
+    width: fit-content;
+    gap: 20px;
+    background: none;
+}
+
+.locationbox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    background: none;
+}
+
+.location{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(36, 7, 90);
+    background: none;
+}
+
+.currdate{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(235, 235, 235);
+    background: none;
+}
+
+.weatherbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.location-temp{
+    color: rgb(235, 235, 235);
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 220px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 800;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    background: none;
+}
+
+.location-weather{
+    font-size: 40px;
+    font-weight: 600;
+    background: none;
+    color: rgb(21, 4, 53);
+}

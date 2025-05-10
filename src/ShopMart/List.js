@@ -1,0 +1,112 @@
+const list = [
+    {
+        id: 1,
+        title: "My First Book of Pencil Control",
+        author: "Wonder House Books",
+        price: 90,
+        img: "https://m.media-amazon.com/images/I/810OOg88LoL._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 2,
+        title: "108 Panchatantra Stories",
+        author: "Maple Press",
+        price: 100,
+        img: "https://m.media-amazon.com/images/I/71rmxx8P2qL._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 3,
+        title: "Amazing Questions & Answers Science",
+        author: "Om Books Editorial Team",
+        price: 140,
+        img: "https://m.media-amazon.com/images/I/81Gbz0XnW7L._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 4,
+        title: "My First Book of Pencil Control",
+        author: "Wonder House Books",
+        price: 60,
+        img: "https://m.media-amazon.com/images/I/81Gbz0XnW7L._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 5,
+        title: "My First 1000 Words",
+        author: "Wonder House Books",
+        price: 150,
+        img: "https://m.media-amazon.com/images/I/71O-FI7QApL._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 6,
+        title: "101 Panchatantra Stories for Children",
+        author: "Om Books Editorial Team",
+        price: 135,
+        img: "https://m.media-amazon.com/images/I/9173YBkMIsL._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 7,
+        title: "Pre-School Activities Pack ",
+        author: "Om Books Editorial Team",
+        price: 690,
+        img: "https://m.media-amazon.com/images/I/913sv4sex3L._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 8,
+        title: "Early Learning Library Pack 1",
+        author: "Wonder House Books",
+        price: 290,
+        img: "https://m.media-amazon.com/images/I/71xMttNhr7L._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 9,
+        title: "Blossom Moral Story Book for Kids ",
+        author: "Target Publications",
+        price: 80,
+        img: "https://m.media-amazon.com/images/I/7122h3jWvEL._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 10,
+        title: "Brain Activity Book for Kids",
+        author: "Maple Press",
+        price: 85,
+        img: "https://m.media-amazon.com/images/I/7175YpTSa7L._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 11,
+        title: "Willy the Silly Panda",
+        author: "Rebecca Smith",
+        price: 120,
+        img: "https://m.media-amazon.com/images/I/71-ocPGQIJL._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+    {
+        id: 12,
+        title: "Grandma's Bag of Stories",
+        author: "Sudha Murty",
+        price: 160,
+        img: "https://m.media-amazon.com/images/I/81jv44QdNwL._AC_UY327_FMwebp_QL65_.jpg",
+        amount: 1,
+        quantity : 1
+    },
+];
+
+export default list;
