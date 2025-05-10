@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# React Projects Collection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains multiple front-end projects built using **React.js**. Each project is modular and can be independently rendered by toggling the respective import statements in the main entry file.
 
-## Available Scripts
+## 🚀 Projects Included
 
-In the project directory, you can run:
+### 1. ⚖️ BMI Calculator
+A simple Body Mass Index calculator that lets users enter their height and weight to determine their BMI category.
+- Input fields for height (cm) and weight (kg)
+- Calculates BMI and categorizes it (Underweight, Normal, Overweight, etc.)
+- Clean and responsive UI
 
-### `npm start`
+📁 Location: `/src/BMI_Calculator`  
+📄 Entry Component: `BMIApp.js`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. 🧮 Calculator
+A basic calculator that supports standard arithmetic operations.
+- Supports addition, subtraction, multiplication, division, etc.
+- Interactive button-based UI
+- Built using React state and event handling
 
-### `npm test`
+📁 Location: `/src/Calculator`  
+📄 Entry Component: `Calculator.js`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 3. 🌤️ Weather App
+A weather forecast app that fetches real-time data using a public weather API.
+- Search weather by city name
+- Displays temperature, weather description, and icon
+- Uses `fetch` and `useEffect` for API integration
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📁 Location: `/src/WeatherApp`  
+📄 Entry Component: `WeatherApp.js`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. 🛍️ BuddyMart (ShopMart)
+A mini shopping interface with cart functionality.
+- Product listing with image, price, and title
+- Add to cart and remove from cart functionality
+- Shows total cart items and amount
 
-### `npm run eject`
+📁 Location: `/src/ShopMart`  
+📄 Entry Component: `BuddyMart.js`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
